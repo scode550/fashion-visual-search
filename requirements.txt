@@ -1,0 +1,6 @@
+streamlit
+pillow
+pandas
+torch>=2.0
+transformers
+faiss-cpu
