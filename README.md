@@ -37,9 +37,28 @@ A fully containerized, visual search and recommendation app for fashion items. U
 | Trend logic too strict           | Loosened filters + fallback to most recent similar dresses               |
 
 ---
+## Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/fashion-visual-search.git
+   ###Image Assets
+    Download the image dataset (`data.zip`) from the
+   [Releases Page](https://github.com/scode550/fashion-visual-search/releases/download/downloads/data.zip)
+    and extract it into: streamlit-visual-search/data/images/
+
+   Install and Run Streamlit :
+     pip install -r requirements.txt
+     streamlit run app.py
+
 
 ## 📦 How to Run with Docker
 
 ```bash
 docker build -t fashion-search .
 docker run -p 8501:8501 fashion-search
+
+Download the image dataset (`data.zip`) from the
+   [Releases Page](https://github.com/scode550/fashion-visual-search/releases/download/downloads/data.zip) and
+    extract it into: streamlit-visual-search/data/images/
+
